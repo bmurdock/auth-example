@@ -1,0 +1,10 @@
+GET http://localhost:3974/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQnJpYW4iLCJpYXQiOjE1ODI1ODMwMDR9.vEZd7PhttZX4e3-9cwyqylJitHGOnpY85P6hKURHt5k
+
+###
+POST http://localhost:3974/login
+Content-Type: application/json
+
+{
+    "username": "Brian"
+}
